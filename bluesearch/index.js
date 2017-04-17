@@ -1,3 +1,4 @@
+/* Make by NguyenPham93 17/04/2017 */
 const cn = require ('./connect');
 const analyse_setting = require ("./analyse_setting");
 const mapping_setting = require ("./mapping_setting")
