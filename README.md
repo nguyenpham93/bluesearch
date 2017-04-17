@@ -61,7 +61,8 @@ products_table : {
 #### 2/ tokenizer : 
 - Dùng tách các string input của người dùng thành mảng chứa các term, mặc định là `standard`
 
-#### 3/ filter : dùng các filter như lowercase để convert các từ hoa thành từ thường, giúp dễ tìm kiếm hơn, 'stop' filter loại bỏ các từ thông dụng như "a,the,is,are..." , tối ưu t.gian tìm kiếm
+#### 3/ filter : 
+- Dùng các filter như lowercase để convert các từ hoa thành từ thường, giúp dễ tìm kiếm hơn, 'stop' filter loại bỏ các từ thông dụng như "a,the,is,are..." , tối ưu t.gian tìm kiếm
 
 ```
 "number_of_shards": 5,
